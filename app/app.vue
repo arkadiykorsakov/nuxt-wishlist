@@ -1,6 +1,14 @@
+<script setup lang="ts">
+useHead({
+  titleTemplate: title => title ? `${title} | Вишлист` : 'Вишлист',
+})
+</script>
+
 <template>
   <UApp>
     <NuxtRouteAnnouncer />
-    UI
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </UApp>
 </template>
