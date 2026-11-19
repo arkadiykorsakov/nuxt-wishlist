@@ -13,8 +13,10 @@
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.156",
+    "@iconify-json/simple-icons": "^1.2.103",
     "@nuxt/ui": "^4.12.2",
     "nuxt": "^4.6.4",
+    "nuxt-auth-utils": "^0.6.2",
     "tailwindcss": "^4.3.5",
     "vue": "^3.5.45",
     "vue-router": "^5.4.0"
