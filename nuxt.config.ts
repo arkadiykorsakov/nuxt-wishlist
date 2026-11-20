@@ -12,6 +12,7 @@ export default defineNuxtConfig({
   },
   css: ['~/assets/css/main.css'],
   runtimeConfig: {
+    databaseUrl: 'file:local.db',
     session: {
       maxAge: 60 * 60 * 24 * 7,
     },
